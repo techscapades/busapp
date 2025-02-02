@@ -20,5 +20,5 @@ wget -O /etc/busapp/startup.sh https://raw.githubusercontent.com/techscapades/bu
 chmod 777 /etc/busapp/startup.sh
 sed -i 's/process.env.PORT || 1880/process.env.PORT || 17700/' ~/.node-red/settings.js
 pip install -r /etc/busapp/requirements.txt --break-system-packages
-Hostname -I
+ifconfig
 bash /etc/busapp/startup.sh
