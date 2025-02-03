@@ -190,7 +190,7 @@
     {
         "id": "66a93de58ce944d4",
         "type": "ui_tab",
-        "name": "Bus Timings",
+        "name": "Bus Times",
         "icon": "dashboard",
         "disabled": false,
         "hidden": false
