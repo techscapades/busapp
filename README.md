@@ -1,4 +1,4 @@
-wget https://raw.githubusercontent.com/techscapades/busapp/main/docker_install.sh
+wget -qO- https://raw.githubusercontent.com/techscapades/busapp/main/docker_install.sh | bash
 
 docker pull ubuntu
 
