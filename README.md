@@ -13,7 +13,7 @@ bash /AppExt/app_installer.sh
 **After installation**
 test the container and navigate to {hostname}.local:17700/ui with this command:
 
-docker start devbustimingcont && docker exec devbustimingcont bash -c "bash /etc/busapp/startup.sh"
+sudo docker start devbustimingcont && docker exec devbustimingcont bash -c "bash /etc/busapp/startup.sh"
 
 **autostart container with systemd**
 
