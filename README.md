@@ -23,7 +23,7 @@ sudo nano /etc/systemd/system/devbustimingcont.service
 
 [Unit]
 
-Description=Start devbustimingcont Docker container and run startup script
+Description=Start devbustimingcont sudo Docker container and run startup script
 
 After=docker.service
 
