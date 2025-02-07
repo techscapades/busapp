@@ -22,17 +22,20 @@ sudo nano /etc/systemd/system/devbustimingcont.service
 (in the file)
 
 [Unit]
+
 Description=Start devbustimingcont Docker container and run startup script
 After=docker.service
 Requires=docker.service
 
 [Service]
+
 Type=oneshot
 ExecStartPre=/usr/bin/docker start devbustimingcont
 ExecStart=/usr/bin/docker exec devbustimingcont bash -c "bash /etc/busapp/startup.sh"
 RemainAfterExit=true
 
 [Install]
+
 WantedBy=multi-user.target
 
 (exit the file)
