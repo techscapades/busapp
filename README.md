@@ -1,6 +1,6 @@
 wget -qO- https://raw.githubusercontent.com/techscapades/busapp/main/docker_install.sh | sudo bash
 
-docker pull ubuntu
+sudo docker pull ubuntu
 
 sudo mkdir /home/$USER/AppExt && sudo wget -O /home/$USER/AppExt/app_installer.sh https://raw.githubusercontent.com/techscapades/busapp/main/app_installer.sh
 
